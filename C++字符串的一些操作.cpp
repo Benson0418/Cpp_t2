@@ -32,7 +32,19 @@ F10 run
     getline(cin, s2);
     cout << s2 << endl;
     cout << s1 << endl;
+    
 
+    string s1;
+    getline(cin, s1);
+    string s1r = s1;
+    int r=s1.length();
+    for(int i=0;i<r/2;i++){
+        swap(s1[i], s1[r-1-i]); //兩數交換
+
+cout << s1 << endl;
+
+
+    
     return 0;
 
 }
