@@ -16,9 +16,9 @@ F10 run
     string r="qwer";
     q.replace(q.find(r),r.size(),"neww");// replace 解釋，對於字符串q，後面跟這三個參數(要替換的起始下標,替換長度,替換字串)
     cout<<'\n'<<q<<'\n';
-    q.toupper();
-    r.tolower();
-    cout<< q<<'\n'<<r;
+    string t="4hello, world";
+    t=t.substr(2, 5);
+    cout<< q<<'\n'<<r<<'\n'<<t;
     return 0;
 
 }
