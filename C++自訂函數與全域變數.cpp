@@ -34,6 +34,8 @@ int f(int n){
 }
 
 int k(); //函數聲明與定義分開的寫法
+int k(); //函數可以多次聲明(雖然沒啥用)
+
 
 int main(){
     hello_world();
