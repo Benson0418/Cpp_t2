@@ -33,6 +33,8 @@ int f(int n){
     return f(n-1)+f(n-2);
 }
 
+int k(); //函數聲明與定義分開的寫法
+
 int main(){
     hello_world();
     hello_cpp();
@@ -54,5 +56,11 @@ int main(){
     int c;
     scanf("%d", &c);
     cout<<f(c);
+    k();
 
+}
+
+k(){
+printf("hello, c++");
+return 0;
 }
