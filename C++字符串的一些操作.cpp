@@ -17,8 +17,11 @@ F10 run
     q.replace(q.find(r),r.size(),"neww");// replace 解釋，對於字符串q，後面跟這三個參數(要替換的起始下標,替換長度,替換字串)
     cout<<'\n'<<q<<'\n';
     string t="4hello, world";
-    t=t.substr(2, 5);
+    t=t.substr(2, 5); // 字符串切片，從2開始，長度為5
     cout<< q<<'\n'<<r<<'\n'<<t;
+    bool g=isupper('A'); //判斷字元是否為大寫，用於字符串需要搭配for循環
+    cout<<"he22llo \n"<<g;
+    
     return 0;
 
 }
