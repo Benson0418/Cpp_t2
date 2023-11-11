@@ -25,6 +25,14 @@ F10 run
     double p = 22.0/7.0;
     cout<<"p="<<setprecision(4)<<p<<endl; //四捨五入至第4位
     cout  <<  fixed <<  setprecision(n) << endl; //小數點後的n位，沒有四捨五入
+
+
+    string s1, s2;      // 字串的整行讀取
+    getline(cin, s1);
+    getline(cin, s2);
+    cout << s2 << endl;
+    cout << s1 << endl;
+
     return 0;
 
 }
