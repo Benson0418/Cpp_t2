@@ -15,6 +15,19 @@ bool cmp(pair<int, int> a,pair<int, int> b){
 
 
 int main(){
+    pair<string, int> P1=make_pair("pair1",5); //標準初始化pair值的方法
+    pair<string, int> P2={"pair2", 5}; //C++11初始化pair的第二種方法
+    cout<<P1.first<<":"<<P1.second<<endl; //pair的讀取方式
+    cout<<P2.first<<":"<<P2.second<<endl;
+
+
+    /*自訂排序測資
+    5 7
+    4 2
+    3 1
+    4 3
+    6 6
+    */
     vector<pair<int, int> > L(5);
     for (int i=0;i<5;++i){
         cin>>L[i].first>>L[i].second;
